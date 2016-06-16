@@ -4,7 +4,7 @@ import sys, os
 from taggit_templatetags import VERSION
 
 setup(name='django-taggit-templatetags',
-      version=".".join(map(str, VERSION)),
+      version=".".join(map(str, VERSION))+".kpd-fork",
       description="Templatetags for django-taggit.",
       long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
       classifiers=[
@@ -27,7 +27,7 @@ setup(name='django-taggit-templatetags',
       install_requires=[
           'django >= 1.1',
           'django-taggit >= 0.8',
-          'django-templatetag-sugar >= 0.1'          
+          'django-templatetag-sugar >= 1.1-kpd-fork'          
       ],
       entry_points="""
       # -*- Entry points: -*-
