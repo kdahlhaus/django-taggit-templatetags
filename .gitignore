@@ -1,0 +1,4 @@
+build/
+dist/
+django_taggit_templatetags.egg-info/
+*.pyc
